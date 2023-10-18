@@ -1,7 +1,11 @@
 package com.learning.restdemo.model;
 
+import jakarta.persistence.*;
+
+@Entity
 public class CloudVendor {
 
+    @Id
     private String id;
     private String name;
     private String address;
